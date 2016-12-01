@@ -1,0 +1,24 @@
+{
+  "name": "thameswater",
+  "version": "1.0.0",
+  "description": "thameswater chatbot",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pandubalraj/ThamesWater.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pandubalraj/ThamesWater/issues"
+  },
+  "homepage": "https://github.com/pandubalraj/ThamesWater#readme",
+  "dependencies": {
+    "botbuilder": "^3.4.4",
+    "restify": "^4.3.0"
+  }
+}
