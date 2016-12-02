@@ -18,12 +18,10 @@
   },
   "homepage": "https://github.com/pandubalraj/ThamesWater#readme",
   "dependencies": {
-     "async": "~0.2.8",
+    "async": "~0.2.8",
     "express": "~3.2.4",
     "socket.io": "~0.9.14",
     "restify": "~4.1.1",
     "botbuilder": "~3.4.2"
-    //"botbuilder": "^3.4.4",
-    //"restify": "^4.3.0"
   }
 }
