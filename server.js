@@ -3,7 +3,8 @@ var builder = require('botbuilder');
 var sourceFile = require('./sourceFile');
 
 //luis ai app model for MyU
-var recognizer1 = new builder.LuisRecognizer('https://api.projectoxford.ai/luis/v2.0/apps/1d787b4e-3a61-4da2-ae05-f050e7e39d0b?subscription-key=c9ad898006c6426d95251f015167aaa1&q=');
+//var recognizer1 = new builder.LuisRecognizer('https://api.projectoxford.ai/luis/v2.0/apps/1d787b4e-3a61-4da2-ae05-f050e7e39d0b?subscription-key=c9ad898006c6426d95251f015167aaa1&q=');
+var recognizer1 = new builder.LuisRecognizer('https://api.projectoxford.ai/luis/v1/application?id=1d787b4e-3a61-4da2-ae05-f050e7e39d0b&subscription-key=c9ad898006c6426d95251f015167aaa1&q=');
 var intents  = new builder.IntentDialog({ recognizers: [recognizer1] });
 
 // // // Setup Restify Server
