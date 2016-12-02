@@ -33,7 +33,7 @@ bot.dialog('/', intents);
 
 //App 1
 intents.matches('None', builder.DialogAction.send(sourceFile.None));
-intents.matches('WaterCome', builder.DialogAction.send(sourceFile.WaterCome));
+intents.matches('WaterCome', builder.DialogAction.send("test intent result"));
 intents.matches('WhatsinWater', builder.DialogAction.send(sourceFile.WhatsinWater));
 intents.matches('HardWaterCreate',  builder.DialogAction.send(sourceFile.HardWaterCreate));
 intents.matches('HardWaterHarm',  builder.DialogAction.send(sourceFile.HardWaterHarm));
